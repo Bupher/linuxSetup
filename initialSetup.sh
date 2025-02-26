@@ -30,6 +30,8 @@ ssh-import-id-gh bupher
 
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do apt remove $pkg; done
 
-wget -O get-docker.sh - https://get.docker.com get-docker.sh| bash
+wget -O get-docker.sh - https://get.docker.com get-docker.sh
+bash get-docker.sh
+rm get-docker.sh
 
 apt autoremove
