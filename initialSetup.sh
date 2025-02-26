@@ -3,7 +3,7 @@
 echo "set -g mouse" >> $HOME/.tmux.config
 userchange=false
 
-if [ whoami != root ]; then
+if [ whoami != "root" ]; then
   user=whoami
   userchange=true
   sudo su root
