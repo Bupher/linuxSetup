@@ -37,8 +37,8 @@ rm get-docker.sh
 
 apt autoremove
 
-if [ userchange ]; then
-  su user
+if [ $userchange ]; then
+  su $user
 fi
 
 ssh-import-id-gh bupher
