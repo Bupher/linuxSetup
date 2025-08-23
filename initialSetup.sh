@@ -42,3 +42,4 @@ if [ $userchange ]; then
 fi
 
 ssh-import-id-gh bupher
+sudo timedatectl set-timezone America/New_York
