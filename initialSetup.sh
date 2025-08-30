@@ -27,7 +27,8 @@ curl \
 zip \
 unzip \
 samba \
-ncdu
+ncdu \
+qemu-guest-agent
 
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do apt remove $pkg; done
 
