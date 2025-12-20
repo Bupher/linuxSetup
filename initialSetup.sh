@@ -37,10 +37,11 @@ bash get-docker.sh
 rm get-docker.sh
 
 apt autoremove
+timedatectl set-timezone America/New_York
 
 if [ $userchange ]; then
   su $user
 fi
 
 ssh-import-id-gh bupher
-sudo timedatectl set-timezone America/New_York
+
