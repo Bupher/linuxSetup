@@ -16,6 +16,7 @@ screen \
 tmux \
 htop \
 net-tools \
+iftop \
 bmon \
 avahi-daemon \
 python3 \
