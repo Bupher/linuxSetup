@@ -29,6 +29,9 @@ zip \
 unzip \
 samba \
 ncdu \
+btop \
+lmsensors \
+ethtool \
 qemu-guest-agent
 
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do apt remove $pkg; done
