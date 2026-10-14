@@ -11,7 +11,7 @@ fi
 
 apt update
 apt upgrade -y
-apt install -y \
+apt install -y --ignore-missing \
 screen \
 tmux \
 htop \
