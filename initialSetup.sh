@@ -30,7 +30,7 @@ unzip \
 samba \
 ncdu \
 btop \
-lmsensors \
+lm-sensors \
 ethtool \
 qemu-guest-agent
 
